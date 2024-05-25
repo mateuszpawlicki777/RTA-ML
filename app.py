@@ -1,9 +1,10 @@
 from flask import Flask, request, jsonify
-import pickle
 import numpy as np
-import sklearn
-import requests
+import pickle
 import io
+import requests
+import sklearn
+
 
 app = Flask(__name__)
 
